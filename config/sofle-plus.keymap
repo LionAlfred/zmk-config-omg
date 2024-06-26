@@ -5,6 +5,7 @@
  */
 
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
@@ -42,7 +43,7 @@
 
             bindings = <
 &ext_power EP_TOG  &kp GRAVE  &kp N1  &kp N2    &kp N3    &kp N4     &kp N5                            &kp N6     &kp N7     &kp N8     &kp N9    &kp N0    &none      &none
-&kp ESC            &kp ESC    &kp Q   &kp W     &kp E     &kp R      &kp T                             &kp Y      &kp U      &kp I      &kp O     &kp P     &kp BSPC   &none
+&bl BL_ON          &kp ESC    &kp Q   &kp W     &kp E     &kp R      &kp T                             &kp Y      &kp U      &kp I      &kp O     &kp P     &kp BSPC   &none
 &none              &kp TAB    &kp A   &kp S     &kp D     &kp F      &kp G                             &kp H      &kp J      &kp K      &kp L     &kp SEMI  &kp SQT    &none
 &none              &kp LSHFT  &kp Z   &kp X     &kp C     &kp V      &kp B      &kp C_MUTE  &none      &kp N      &kp M      &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT  &none
                                       &kp LGUI  &kp LALT  &kp LCTRL  &mo LOWER  &kp RET     &kp SPACE  &mo RAISE  &kp RCTRL  &kp RALT   &kp RGUI
