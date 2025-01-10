@@ -13,8 +13,11 @@
 #
 
 board: ["mikoto"]
-shield: ["sofle-plus_left", "sofle-plus_right"]
-
-include:
-  - board: corne-v4_left
-  - board: corne-v4_right
+shield:
+  [
+    "sofle-plus_left lpm_view_adapter lpm_view",
+    "sofle-plus_right lpm_view_adapter lpm_view",
+  ]
+# include:
+#   - board: corne-v4_left
+#   - board: corne-v4_right
