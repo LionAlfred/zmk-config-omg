@@ -65,8 +65,8 @@ layers:
   - $$mdi:keyboard-esc$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '=', s: +}
   - {t: '-', s: _}
+  - {t: '=', s: +}
   - lower
   lower:
   - {t: '$$mdi:transfer$$', type: trans}
